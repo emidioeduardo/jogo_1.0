@@ -13,10 +13,13 @@ button {
   border: none;
   cursor: pointer;
 }
-#sellDiv {
+#sellDiv, #dayFarm {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#harvestCount {
+  margin-left: 10px;
 }
 #farmButton {
     background-color: #3751df;
@@ -73,3 +76,6 @@ td {
   .red-cell {
     animation: fadeOut 0.5s;
   }
+table {
+  margin-bottom: 5px;
+}
