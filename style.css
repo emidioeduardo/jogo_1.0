@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+}
+
+#farm {
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#sellDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#farmButton {
+    background-color: #3751df;
+}
+#farmButton:hover {
+    background-color: #233abd;
+  }
+#sellButton {
+    background-color: #4CAF50;
+    margin-left: 15px;
+}
+#sellButton:hover {
+  background-color: #45a049;
+}
+h1 {
+    margin-bottom: -30px;
+    font-size: 25px;
+}
+h1, p {
+  font-family: Arial, sans-serif;
+}
+#sell {
+    color: #2aaa2f;
+    font-weight: bold;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #aa7e2c;
+}
+.trigo {
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://img.freepik.com/fotos-premium/plantacao-de-trigo-dourado-no-verao-com-ceu-azul_12395-882.jpg);
+}
+@keyframes fadeOut {
+    0% {
+      background-color: red;
+    }
+    100% {
+      background-color: #aa7e2c;
+    }
+  }
+  
+  .red-cell {
+    animation: fadeOut 0.5s;
+  }
